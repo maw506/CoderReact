@@ -1,0 +1,41 @@
+@import "./colors";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $background-color;
+  overflow-x: auto;
+  color: white;
+}
+
+.container-main {
+  margin-left: 3.7em;
+  margin-bottom: 6em;
+  @media screen and (max-width: 426px) {
+    margin-left: 0;
+  }
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome and Opera */
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: $background-color;
+  height: 80%;
+  margin-bottom: 12px;
+  & img {
+    max-width: 250px;
+  }
+}

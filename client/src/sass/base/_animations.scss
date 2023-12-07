@@ -1,0 +1,50 @@
+.animated-square {
+    animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) square-in-center both;
+  }
+  
+  @keyframes square-in-center {
+    from {
+      clip-path: inset(100% 100% 100% 100%);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  [transition-style="in:square:center"] {
+    animation: 0.75s cubic-bezier(0.25, 1, 0.3, 1) square-in-center both;
+  }
+  
+  .animated-cilcle {
+    animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1);
+  }
+  
+  @keyframes circle-in-center {
+    from {
+      clip-path: circle(0%);
+    }
+    to {
+      clip-path: circle(125%);
+    }
+  }
+  
+  [transition-style="in:circle:center"] {
+    animation: 1s cubic-bezier(0.25, 1, 0.3, 1) circle-in-center both;
+  }
+  
+  .animated-wipe-down {
+    animation: 1s cubic-bezier(0.25, 1, 0.3, 1);
+  }
+  
+  @keyframes wipe-in-down {
+    from {
+      clip-path: inset(0 0 100% 0);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  [transition-style="in:wipe:down"] {
+    animation: 1s cubic-bezier(0.5, 1, .30, 1) wipe-in-down both;
+  }
