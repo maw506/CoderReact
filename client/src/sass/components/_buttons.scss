@@ -19,3 +19,21 @@
         }
       }
 }
+
+.cart-widget {
+  position: relative;
+  cursor: pointer;
+  margin-right: 80px;
+  
+}
+.qty-display {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  position: absolute;
+  text-align: center;
+}
+

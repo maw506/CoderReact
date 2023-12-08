@@ -2,13 +2,10 @@
 
 .header {
   display: flex;
+  width: 100%;
+  height: 70px;
   margin-left: 3.5em;
-  justify-content: end;
   padding: 10px 30px 10px;
   background-color: $pallete-400;
-  height: 70px;
   margin-bottom: 12px;
-  & img {
-    max-width: 250px;
-  }
 }
