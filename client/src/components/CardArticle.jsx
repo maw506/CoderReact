@@ -20,7 +20,10 @@ const CardArticle = ({
         </div>
       </div>
     </>
-  );
+  ); 
 };
 
 export default CardArticle;
+
+
+
