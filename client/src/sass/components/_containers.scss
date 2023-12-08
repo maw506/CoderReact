@@ -1,14 +1,19 @@
 @import "../base/colors";
 
 .container_fluid {
-    width: auto;
-    border-radius: 15px;
-    color: black;
-    padding: 20px 20px;
-    &_ligth {
-      background-color: $pallete-300;
-    }
-    &_dark {
-      background-color: $pallete-700;
-    }
+  width: auto;
+  border-radius: 15px;
+  color: black;
+  padding: 20px 20px;
+  &_ligth {
+    background-color: $pallete-300;
   }
+  &_dark {
+    background-color: $pallete-700;
+  }
+}
+.container_card {
+  width: 300px;
+  height: auto;
+  margin: 15px;
+}

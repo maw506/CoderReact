@@ -14,6 +14,7 @@
   header {
     background-color: $pallete-400;
     width: 18em;
+    height: 70px;
     display: block;
     padding: 1em;
     text-align: center;
@@ -118,7 +119,7 @@
     li {
       .nav-flyout {
         position: absolute;
-        margin-top: 50px;
+        margin-top: 70px;
         background-color: $pallete-500;
         z-index: 11;
         left: 2.5em;

@@ -20,13 +20,3 @@ body {
   }
 }
 
-.header {
-  display: flex;
-  justify-content: center;
-  background-color: $pallete-50;
-  height: 80%;
-  margin-bottom: 12px;
-  & img {
-    max-width: 250px;
-  }
-}
