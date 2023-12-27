@@ -1,25 +1,28 @@
-import "../src/styles/main.css";
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
+import ItemListContainer from "./components/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer";
+import './styles/main.css';
 
 function App() {
   return (
-    <>
-      <Header />
-      <Sidebar />
-      <div className="container-main">
-        <Router>
+    <Router>
+      <>
+        <Header />
+        <Sidebar />
+        <div className="container-main">
           <Routes>
-            <Route path="*" element={<h1>not found</h1>} />
             <Route path="/" element={<Home />} />
-            <Route path="/monitores" element={<h1>monitores</h1>} />
-            <Route path="/perifericos" element={<h1>perifericos</h1>} />
+            <Route path="/categoria/:categoria" element={<ItemListContainer />} />
+            <Route path="/detalle/:id" element={<ItemDetailContainer />} />
+            <Route path="*" element={<h1>Not Found</h1>} />
           </Routes>
-        </Router>
-      </div>
-    </>
+        </div>
+      </>
+    </Router>
   );
 }
 

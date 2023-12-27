@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif; 
+  font-family: "Roboto", sans-serif;
   background-color: $pallete-50;
   overflow-x: auto;
   color: $dark-color;
@@ -20,3 +20,11 @@ body {
   }
 }
 
+h1 {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
