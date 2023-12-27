@@ -52,7 +52,7 @@ const Sidebar = () => {
           <ul>
             <li>
               <p>
-                <i class="bi bi-person-bounding-box"></i>
+                <i className="bi bi-person-bounding-box"></i>
                 <span>MI CUENTA</span>
               </p>
             </li>

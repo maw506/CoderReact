@@ -1,7 +1,7 @@
 export const elements = [
   {
     id: 1,
-    name: "CAMARA",
+    name: "CAMARA 1",
     description: "camara de fotos descripcion",
     img: "../img/camara_nikon.jpg",
     category: 1,
@@ -9,7 +9,7 @@ export const elements = [
   },
   {
     id: 2,
-    name: "CAMARA",
+    name: "CAMARA 2",
     description: "camara de fotos descripcion",
     img: "../img/camara_nikon.jpg",
     category: 1,
@@ -17,7 +17,7 @@ export const elements = [
   },
   {
     id: 3,
-    name: "CAMARA",
+    name: "CAMARA 3",
     description: "camara de fotos descripcion",
     img: "../img/camara_nikon.jpg",
     category: 1,
@@ -25,7 +25,7 @@ export const elements = [
   },
   {
     id: 4,
-    name: "FLASH",
+    name: "FLASH 1",
     description: "flash de zapata descripcion",
     img: "../img/flash_nikon.jpg",
     category: 2,
@@ -33,7 +33,7 @@ export const elements = [
   },
   {
     id: 5,
-    name: "FLASH",
+    name: "FLASH 2",
     description: "flash de zapata descripcion",
     img: "../img/flash_nikon.jpg",
     category: 2,
@@ -41,7 +41,7 @@ export const elements = [
   },
   {
     id: 6,
-    name: "FLASH",
+    name: "FLASH 3",
     description: "flash de zapata descripcion",
     img: "../img/flash_nikon.jpg",
     category: 2,
@@ -49,7 +49,7 @@ export const elements = [
   },
   {
     id: 7,
-    name: "LENTE",
+    name: "LENTE 1",
     description: "lente de fotos descripcion",
     img: "../img/lente_nikon.jpg",
     category: 3,
@@ -57,7 +57,7 @@ export const elements = [
   },
   {
     id: 8,
-    name: "LENTE",
+    name: "LENTE 2",
     description: "lente de fotos descripcion",
     img: "../img/lente_nikon.jpg",
     category: 3,
@@ -65,7 +65,7 @@ export const elements = [
   },
   {
     id: 9,
-    name: "LENTE",
+    name: "LENTE 3",
     description: "lente de fotos descripcion",
     img: "../img/lente_nikon.jpg",
     category: 3,
